@@ -1,0 +1,35 @@
+[gd_scene load_steps=6 format=3 uid="uid://30ydpbywy8j3"]
+
+[ext_resource type="Texture2D" uid="uid://dac17uie8lmhi" path="res://2D Assets/Fishing Section/Sea_Fishing.png" id="1_1eyks"]
+[ext_resource type="Texture2D" uid="uid://dqsg58jwel1uc" path="res://2D Assets/Fishing Section/Sun_Fishing.png" id="2_twchj"]
+[ext_resource type="Texture2D" uid="uid://i1i0kt7hoqoa" path="res://2D Assets/Fishing Section/Fello_Fishing.png" id="3_caxr4"]
+[ext_resource type="Texture2D" uid="uid://b73g2w6unv4h8" path="res://2D Assets/Fishing Section/Icons_Fishing.png" id="4_o41xq"]
+[ext_resource type="Texture2D" uid="uid://duw5isi4nv416" path="res://2D Assets/Fishing Section/Gumbo_Caught.png" id="5_mbxur"]
+
+[node name="Fishing Section" type="Node2D"]
+
+[node name="Ocean Sprite" type="Sprite2D" parent="."]
+position = Vector2(320, 282)
+scale = Vector2(2, 2)
+texture = ExtResource("1_1eyks")
+
+[node name="Sun Sprite" type="Sprite2D" parent="."]
+position = Vector2(320, 82)
+scale = Vector2(2, 2)
+texture = ExtResource("2_twchj")
+
+[node name="Fello Sprite" type="Sprite2D" parent="."]
+position = Vector2(320, 222)
+scale = Vector2(2, 2)
+texture = ExtResource("3_caxr4")
+
+[node name="Icon Sprites" type="Sprite2D" parent="."]
+position = Vector2(28, 232)
+scale = Vector2(2, 2)
+texture = ExtResource("4_o41xq")
+
+[node name="Fish Caught Sprite" type="Sprite2D" parent="."]
+position = Vector2(320, 200)
+scale = Vector2(2, 2)
+skew = -0.015708
+texture = ExtResource("5_mbxur")

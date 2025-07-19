@@ -1,0 +1,10 @@
+CanvasLayer
+Label
+AudioStreamPlayer
+CenterContainer
+TextureButton
+Node2D
+ColorRect
+CanvasGroup
+Camera2D
+Sprite2D

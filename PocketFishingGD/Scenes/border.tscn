@@ -1,0 +1,139 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtwyeyhpcgyf5"]
+
+[ext_resource type="Texture2D" uid="uid://bahikqv5ercf2" path="res://2D Assets/her.png" id="1_3v7vi"]
+
+[sub_resource type="GDScript" id="GDScript_3v7vi"]
+script/source = "extends Sprite2D
+
+var dt = 0.0
+func _process(d):
+	dt += d * 5
+	
+	skew = sin(dt)
+"
+
+[node name="border" type="Node2D"]
+modulate = Color(0.964706, 0.964706, 0.964706, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+offset_right = 640.0
+offset_bottom = 69.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="CanvasLayer"]
+offset_top = 411.0
+offset_right = 640.0
+offset_bottom = 480.0
+color = Color(0, 0, 0, 1)
+
+[node name="Her2" type="Sprite2D" parent="CanvasLayer"]
+visible = false
+position = Vector2(339, 249)
+rotation = 0.0174533
+scale = Vector2(-0.235508, 0.59309)
+skew = 0.0488692
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her2" type="Sprite2D" parent="CanvasLayer/Her2"]
+position = Vector2(339, 249)
+rotation = 0.0174533
+scale = Vector2(-0.235508, 0.59309)
+skew = 0.0488692
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her2" type="Sprite2D" parent="CanvasLayer/Her2/Her2"]
+position = Vector2(3834.02, -600.35)
+rotation = -3.12414
+scale = Vector2(0.235508, -0.593091)
+skew = 0.0488691
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her3" type="Sprite2D" parent="CanvasLayer/Her2/Her2"]
+position = Vector2(1508.15, -410.285)
+rotation = -3.13465
+scale = Vector2(4.24198, -1.7112)
+skew = 0.158456
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3"]
+position = Vector2(-579.278, 325.487)
+rotation = 3.14159
+scale = Vector2(1.27384, -0.244482)
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her3" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3/Her"]
+position = Vector2(-969.077, -1672.13)
+rotation = 3.14159
+scale = Vector2(-1.47541, -8.17535)
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her2" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3/Her/Her3"]
+position = Vector2(339, 249)
+rotation = 0.0174533
+scale = Vector2(-0.235508, 0.59309)
+skew = 0.0488692
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her2" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3/Her/Her3/Her2"]
+position = Vector2(3834.02, -600.35)
+rotation = -3.12414
+scale = Vector2(0.235508, -0.593091)
+skew = 0.0488691
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her3" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3/Her/Her3/Her2"]
+position = Vector2(1508.15, -410.285)
+rotation = -3.13465
+scale = Vector2(4.24198, -1.7112)
+skew = 0.158456
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3/Her/Her3/Her2/Her3"]
+position = Vector2(-579.278, 325.487)
+rotation = 3.14159
+scale = Vector2(1.27384, -0.244482)
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her2" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3/Her/Her3/Her2/Her3"]
+position = Vector2(781.663, 49.3636)
+rotation = 0.0174533
+scale = Vector2(-0.235508, 0.59309)
+skew = 0.0488692
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her2" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3/Her/Her3/Her2/Her3/Her2"]
+position = Vector2(617.879, -331.347)
+rotation = 0.0174533
+scale = Vector2(-0.235508, 0.59309)
+skew = 0.0488692
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her2" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3"]
+position = Vector2(781.663, 49.3636)
+rotation = 0.0174533
+scale = Vector2(-0.235508, 0.59309)
+skew = 0.0488692
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")
+
+[node name="Her2" type="Sprite2D" parent="CanvasLayer/Her2/Her2/Her3/Her2"]
+position = Vector2(617.879, -331.347)
+rotation = 0.0174533
+scale = Vector2(-0.235508, 0.59309)
+skew = 0.0488692
+texture = ExtResource("1_3v7vi")
+script = SubResource("GDScript_3v7vi")

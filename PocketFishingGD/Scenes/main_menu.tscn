@@ -1,134 +1,45 @@
-[gd_scene load_steps=9 format=3 uid="uid://dxpubokebcpvm"]
+[gd_scene load_steps=8 format=3 uid="uid://dxpubokebcpvm"]
 
-[ext_resource type="Texture2D" uid="uid://xsbkvunr122a" path="res://2D Assets/PocketFishing_Menu.png" id="1_28flt"]
-[ext_resource type="Texture2D" uid="uid://huty7ap0e6t3" path="res://2D Assets/Border_Black.png" id="1_48xlc"]
+[ext_resource type="Script" uid="uid://b1bq7t5e6kc8m" path="res://Scripts/Menus/main_menu.gd" id="1_28flt"]
+[ext_resource type="Texture2D" uid="uid://xsbkvunr122a" path="res://2D Assets/PocketFishing_Menu.png" id="2_48xlc"]
 [ext_resource type="Texture2D" uid="uid://c8p1qmpqgp1hy" path="res://2D Assets/Fishing_Menu.png" id="2_ce3w2"]
 [ext_resource type="Texture2D" uid="uid://xdeei1kkxjgi" path="res://2D Assets/Start_Button_Menu.png" id="4_n45e2"]
 [ext_resource type="Texture2D" uid="uid://dhqk14ejp6vde" path="res://2D Assets/Start_Button_Menu_White.png" id="5_n45e2"]
+[ext_resource type="Texture2D" uid="uid://h0phccxj3cvd" path="res://2D Assets/Pocket.png" id="6_cp0ys"]
+[ext_resource type="AudioStream" uid="uid://dclptko1lrgwj" path="res://Sounds/MENu/tit.mp3" id="6_opfnp"]
 
-[sub_resource type="Animation" id="Animation_n45e2"]
-resource_name = "FishFall"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.633333, 0.766667, 0.966667),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 0,
-"values": [Vector2(175, -17), Vector2(175, 213), Vector2(175, 229), Vector2(175, 213)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:rotation")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0, 0.83, 1),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 0,
-"values": [0.0, 0.0, 0.0]
-}
+[node name="Main Menu" type="Node2D"]
+script = ExtResource("1_28flt")
 
-[sub_resource type="Animation" id="Animation_opfnp"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(175, 213)]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath(".:rotation")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_cp0ys"]
-_data = {
-&"FishFall": SubResource("Animation_n45e2"),
-&"RESET": SubResource("Animation_opfnp")
-}
-
-[node name="Main Menu" type="Control"]
-layout_mode = 3
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_top = 3.0
-offset_bottom = 3.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-root_node = NodePath("../Fishing Ting")
-libraries = {
-&"": SubResource("AnimationLibrary_cp0ys")
-}
-
-[node name="Menu Back" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("1_28flt")
-stretch_mode = 5
-
-[node name="Fishing Ting" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -145.0
-offset_top = -27.0
-offset_bottom = 11.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="bg" type="Sprite2D" parent="."]
+position = Vector2(0, 60)
 scale = Vector2(2, 2)
+texture = ExtResource("2_48xlc")
+centered = false
+
+[node name="Cam" type="Camera2D" parent="."]
+anchor_mode = 0
+
+[node name="fish" type="Sprite2D" parent="."]
+position = Vector2(320, 0)
+scale = Vector2(1.8, 1.8)
 texture = ExtResource("2_ce3w2")
 
-[node name="Screen Border" type="TextureRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("1_48xlc")
-stretch_mode = 5
-
-[node name="Start Button" type="TextureButton" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -160.0
-offset_top = 88.0
-offset_bottom = 128.0
-grow_horizontal = 2
-grow_vertical = 2
-scale = Vector2(2, 2)
+[node name="button" type="TextureButton" parent="."]
+offset_left = 143.0
+offset_top = 500.0
+offset_right = 303.0
+offset_bottom = 527.0
+scale = Vector2(2.2, 2.2)
 texture_normal = ExtResource("4_n45e2")
 texture_pressed = ExtResource("5_n45e2")
+
+[node name="Pocket" type="Sprite2D" parent="."]
+position = Vector2(320, 127)
+scale = Vector2(2, 2)
+texture = ExtResource("6_cp0ys")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_opfnp")
+volume_db = 11.854
+autoplay = true

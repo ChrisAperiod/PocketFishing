@@ -1,22 +1,31 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1752883649
+::res://::1752885705
 icon.svg::CompressedTexture2D/CompressedTexture2D::7834927016232818369::1752878673::1752878758::1::::<><><>0<>0<>9e8ed8fe5924e5881750ede51b638267<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-::res://2D Assets/::1752885041
+::res://2D Assets/::1752886017
 Backdrop_Black.png::CompressedTexture2D/CompressedTexture2D::5712898040635849348::1752878673::1752878758::1::::<><><>0<>0<>b0c856234fed7a069f1c278466ee50b3<>res://.godot/imported/Backdrop_Black.png-933c82e6a4f6fddfbb162fc68dbb58b1.ctex::
 Border_Black.png::CompressedTexture2D/CompressedTexture2D::533807623926040622::1752878673::1752878758::1::::<><><>0<>0<>77d6cb0130b0f26954341d9e4447f333<>res://.godot/imported/Border_Black.png-1f393d604f5b80fea27f8229f7a3a46b.ctex::
 Fishing_Menu.png::CompressedTexture2D/CompressedTexture2D::7121646742454446470::1752878673::1752878758::1::::<><><>0<>0<>b97c105555a7eea1c944521221179946<>res://.godot/imported/Fishing_Menu.png-2b4c5c7a13bc04212456eebe14328a2d.ctex::
-her.png::CompressedTexture2D::2401375796036273941::1752885041::1752885043::1::::<><><>0<>0<>c9f34c63b68143a4cf7c1928a51cd7b9<>res://.godot/imported/her.png-30a491536ba40e6cb89e0ce498b6f5e6.ctex::
-Pocket.png::CompressedTexture2D::543854713961006757::1752884955::1752884959::1::::<><><>0<>0<>adaffec33e07a28d3f638c1f3b624d45<>res://.godot/imported/Pocket.png-c3ef70508816f81dc3f7128218cbeb9f.ctex::
+her.png::CompressedTexture2D::2401375796036273941::1752885705::1752885708::1::::<><><>0<>0<>c9f34c63b68143a4cf7c1928a51cd7b9<>res://.godot/imported/her.png-30a491536ba40e6cb89e0ce498b6f5e6.ctex::
+Pocket.png::CompressedTexture2D::543854713961006757::1752885705::1752885708::1::::<><><>0<>0<>adaffec33e07a28d3f638c1f3b624d45<>res://.godot/imported/Pocket.png-c3ef70508816f81dc3f7128218cbeb9f.ctex::
 PocketFishing_Menu.png::CompressedTexture2D/CompressedTexture2D::1651581912680509826::1752878673::1752878758::1::::<><><>0<>0<>61220ab732d35d5accb34bf601aa3658<>res://.godot/imported/PocketFishing_Menu.png-d02c12436dce22becf9088bb09818394.ctex::
 Start_Button_Menu.png::CompressedTexture2D/CompressedTexture2D::1620787008903957776::1752878673::1752878758::1::::<><><>0<>0<>9e36c89b7c6e808c5581ed4e1139d949<>res://.godot/imported/Start_Button_Menu.png-261bdec87004e64313b0087bd264bdd0.ctex::
 Start_Button_Menu_White.png::CompressedTexture2D/CompressedTexture2D::7684269130966256710::1752878673::1752878758::1::::<><><>0<>0<>ca4fbe8d24540fdfd936e30a11458a99<>res://.godot/imported/Start_Button_Menu_White.png-3e2b560ab889c9ca4e40e3107c19a1f7.ctex::
-::res://Scenes/::1752884995
-main_menu.tscn::PackedScene::8805787997672299698::1752884995::0::1::::<><><>0<>0<><>::uid://b1bq7t5e6kc8m::::res://Scripts/Menus/main_menu.gd<>uid://xsbkvunr122a::::res://2D Assets/PocketFishing_Menu.png<>uid://c8p1qmpqgp1hy::::res://2D Assets/Fishing_Menu.png<>uid://xdeei1kkxjgi::::res://2D Assets/Start_Button_Menu.png<>uid://dhqk14ejp6vde::::res://2D Assets/Start_Button_Menu_White.png<>uid://h0phccxj3cvd::::res://2D Assets/Pocket.png<>uid://dclptko1lrgwj::::res://Sounds/MENu/tit.mp3
+::res://2D Assets/Fishing Section/::1752886017
+Fello_Fishing.png::CompressedTexture2D::615715507548209852::1752885604::1752886029::1::::<><><>0<>0<>ff70eeaac415e76347fdde6575f4c7bf<>res://.godot/imported/Fello_Fishing.png-d0463c3db0f3e3080054b32bae74d50b.ctex::
+Fish_Caught.png::CompressedTexture2D::8422775901259823343::1752885604::1752886029::1::::<><><>0<>0<>8a4f51598316f4c7c2176a394950e61d<>res://.godot/imported/Fish_Caught.png-397d19e044e0af2da55ec8ab0e2391f2.ctex::
+Gumbo_Caught.png::CompressedTexture2D::8610291989678096415::1752885604::1752886029::1::::<><><>0<>0<>d0eb0e881ccd4c4a832d084c180a2fbc<>res://.godot/imported/Gumbo_Caught.png-cee726483b71fd0de9288d77e8029e29.ctex::
+Icons_Fishing.png::CompressedTexture2D::4690679979945422139::1752885604::1752886029::1::::<><><>0<>0<>ac861b684b46723401ff8cf0777d36bc<>res://.godot/imported/Icons_Fishing.png-b2970981474c170c1203c9471564de04.ctex::
 main_scene.tscn::PackedScene::1572341058709151674::1752879790::0::1::::<><><>0<>0<><>::
-border.tscn::PackedScene::8539732013851750424::1752884173::0::1::::<><><>0<>0<><>::
-::res://Scripts/::1752880402
-::res://Scripts/Menus/::1752884757
-main_menu.gd::GDScript::4214424657836572726::1752884757::0::1::::<>Node2D<><>0<>0<><>::
-::res://Sounds/::1752882040
-::res://Sounds/MENu/::1752882206
-tit.mp3::AudioStreamMP3::7323293126683175301::1752882192::1752882206::1::::<><><>0<>0<>1d862082e67037a28ad87f7e3531229c<>res://.godot/imported/tit.mp3-51a715b9206da3afcb42a70043cb08ba.mp3str::
+Sea_Fishing.png::CompressedTexture2D::7165027656856032910::1752885604::1752886029::1::::<><><>0<>0<>4f5a7e14b4a7c9f1c8ff52d668f3f90a<>res://.godot/imported/Sea_Fishing.png-96aea72a5f67d78e49fdc7b64f8c9112.ctex::
+Sun_Fishing.png::CompressedTexture2D::8319861972813825194::1752885604::1752886029::1::::<><><>0<>0<>b6190884a370c1f9c4e1286b6f79b688<>res://.godot/imported/Sun_Fishing.png-dca0235d05fa090161a20f77c52f60ed.ctex::
+Textbox_Fishing.png::CompressedTexture2D::106662948594851861::1752885604::1752886029::1::::<><><>0<>0<>b3741e21a87a981cf4ba354e99f963de<>res://.godot/imported/Textbox_Fishing.png-bb463262b769ef5235292afc1ebc20dc.ctex::
+::res://Scenes/::1752886006
+main_menu.tscn::PackedScene::8805787997672299698::1752886006::0::1::::<><><>0<>0<><>::uid://b1bq7t5e6kc8m::::res://Scripts/Menus/main_menu.gd<>uid://xsbkvunr122a::::res://2D Assets/PocketFishing_Menu.png<>uid://c8p1qmpqgp1hy::::res://2D Assets/Fishing_Menu.png<>uid://xdeei1kkxjgi::::res://2D Assets/Start_Button_Menu.png<>uid://dhqk14ejp6vde::::res://2D Assets/Start_Button_Menu_White.png<>uid://h0phccxj3cvd::::res://2D Assets/Pocket.png<>uid://dclptko1lrgwj::::res://Sounds/MENu/tit.mp3
+main_scene.tscn::PackedScene::1572341058709151674::1752885604::0::1::::<><><>0<>0<><>::
+border.tscn::PackedScene::1372909831955364124::1752885756::0::1::::<><><>0<>0<><>::uid://bahikqv5ercf2::::res://2D Assets/her.png
+::res://Scripts/::1752885705
+::res://Scripts/Menus/::1752886006
+main_menu.gd::GDScript::4214424657836572726::1752886006::0::1::::<>Node2D<><>0<>0<><>::
+::res://Sounds/::1752885705
+::res://Sounds/MENu/::1752885708
+tit.mp3::AudioStreamMP3::7323293126683175301::1752885705::1752885708::1::::<><><>0<>0<>1d862082e67037a28ad87f7e3531229c<>res://.godot/imported/tit.mp3-51a715b9206da3afcb42a70043cb08ba.mp3str::
